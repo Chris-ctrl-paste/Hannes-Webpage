@@ -1,0 +1,33 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="iilahtisans.fi" resolutions="1x" timestamp="1525353496472">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="regular.css" crc="4059944868" ref="regular"/>
+    <file name="index.css" crc="4019920725" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="iilahtisans_0.3-bold.woff" crc="409278241"/>
+    <file name="iilahtisans_0.3-bold.eot" crc="3901870809"/>
+    <file name="iilahtisans_0.2-bold.woff" crc="186911069"/>
+    <file name="iilahtisans_0.2-bold.eot" crc="3883550045"/>
+    <file name="iilahtisans_0.2-regular.woff" crc="428961455"/>
+    <file name="iilahtisans_0.2-regular.eot" crc="182756734"/>
+    <file name="iilahtisans_0.3-regular.woff" crc="3927178279"/>
+    <file name="iilahtisans_0.3-regular.eot" crc="26753801"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:regular"/>
+    <file name="museutils.js" crc="3803043152" ref="index:regular"/>
+    <file name="whatinput.js" crc="86476730" ref="index:regular"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:regular"/>
+    <file name="webpro.js" crc="242022427" ref="index:regular"/>
+    <file name="form_check.php" crc="147359589" ref="index"/>
+    <file name="form_throttle.php" crc="93986428" ref="index"/>
+    <file name="form_process.php" crc="3851993751" ref="index"/>
+    <file name="form-u94.php" crc="4145525892" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:regular"/>
+    <file name="require.js" crc="4157109226" ref="index:regular"/>
+    <file name="form-u600.php" crc="3487409" ref="regular"/>
+  </folder>
+  <file name="index.html" crc="4113169823" seo="true" mt="1525353447485" redirect="true"/>
+  <file name="regular.html" crc="4210799955" seo="true" mt="1525353355402" redirect="true"/>
+</manifest>

@@ -1,0 +1,625 @@
+
+
+article, aside, details, figcaption,
+figure, footer, header, hgroup, nav, section {
+display : block;
+}
+
+
+
+
+
+
+
+audio:not([controls]) {
+display : none;
+}
+
+[hidden] {
+display : none;
+}
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, b, u, i, center, dl, dt, dd, ol, ul,
+li, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside,
+canvas, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section, summary, time,
+mark, audio, video {
+margin : 0;
+padding : 0;
+border : 0;
+outline : 0;
+font-size : 100%;
+font-family:nimbus-sans, sans-serif;
+vertical-align : baseline;
+}
+
+span,em {
+font-family:nimbus-sans;
+font-style:normal;
+
+}
+
+
+
+h1,h2,h4{
+
+  font-size: 30px;
+  font-family:nimbus-sans !important;
+  letter-spacing:-1.5px;
+}
+
+hr {
+	width:100%;
+}
+
+
+body {
+line-height : 1;
+font-family:nimbus-sans, sans-serif;
+}
+
+ol, ul {
+list-style : none;
+}
+
+table {
+border-collapse : collapse;
+border-spacing : 0;
+}
+
+* {
+margin : 0;
+}
+
+html, body {
+height : 100%;
+
+}
+
+input {
+border-radius : 0;
+}
+
+*, *:before, *:after {
+box-sizing : border-box;
+}
+
+body {
+font-family:nimbus-sans, sans-serif;
+font-size : 15px;
+line-height : 25px;
+
+}
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+body {
+font-size : 15px;
+line-height : 18px;
+font-family:nimbus-sans, sans-serif;
+}
+}
+
+article p, article h1, article h2 {
+font-family:nimbus-sans, sans-serif;
+}
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+button, input[type="text"] {
+font-size : 15px;
+line-height : 18px;
+}
+}
+
+a {
+text-decoration : none;
+color :black ;
+font-family:nimbus-sans, sans-serif;
+
+}
+
+a.hero {
+	color:blue;
+}
+p, h2 {
+padding-bottom : 18px;
+
+}
+
+p.file, h2.file {
+
+padding-top : 18px;
+}
+
+p em, h2 em {
+font-family:nimbus-sans, sans-serif;
+
+}
+
+
+p.file, h2.file {
+padding-top : 18px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#grid-list ul li span a {
+cursor : text;
+}
+
+article#grid-list ul li span a::after {
+content : ":";
+}
+}
+
+
+header[role="banner"] {
+width : 100%;
+float : left;
+padding : 0 16px;
+}
+header[role="banner"] nav {
+position : relative;
+width : 100%;
+float : left;
+padding-bottom : 35px;
+line-height : 45px;
+}
+header[role="banner"] nav h1 {
+float : left;
+font-family:nimbus-sans, sans-serif;
+
+}
+header[role="banner"] nav h2 {
+float:right;
+font-size:30px;
+margin-right:0%;
+
+font-family:nimbus-sans, sans-serif;
+
+}
+
+header[role="banner"] nav h4 {
+float : center;
+margin-left:61.5%;
+font-size:30px;
+font-family:nimbus-sans, sans-serif;
+
+}
+
+
+@media only screen and (min-width:1px) and (max-width:768px) {
+header[role="banner"] nav h1 {
+font-size:20px;
+}
+}
+
+@media only screen and (min-width:1px) and (max-width:768px) {
+header[role="banner"] nav h4 {
+float : center;
+margin-left:0%;
+font-size:20px;
+
+
+
+}
+}
+@media only screen and (min-width:1px) and (max-width:768px) {
+header[role="banner"] nav h2 {
+float : right;
+margin-right:0%;
+font-size:20px;
+margin-bottom:-7px;
+
+
+
+}
+}
+
+@media only screen and (min-width:1px) and (max-width:425px) {
+header[role="banner"] nav h2 {
+	margin-top:10px;
+	margin-right:82%;
+	margin-bottom:-10px;
+	
+}
+}
+@media only screen and (min-width:1px) and (max-width:425px) {
+header[role="banner"] nav h4 {
+	margin-right:50%;
+	
+}
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+header[role="banner"] nav h2 {
+	margin-right:0%;
+
+}
+}
+@media only screen and (min-width:975px) and (max-width:1024px) {
+header[role="banner"] nav h4 {
+	margin-left:53%;
+	
+}
+}
+
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1261px) {
+header[role="banner"] nav h2 {
+	margin-right:0%;
+
+}
+}
+@media only screen and (min-width:1025px) and (max-width:1261px) {
+header[role="banner"] nav h4 {
+	margin-left:53%;
+	
+}
+}
+
+@media only screen and (min-width:1262px) and (max-width:1548px) {
+header[role="banner"] nav h4 {
+	margin-left:50.7%;
+	
+}
+}
+
+
+@media only screen and (min-width:769px) and (max-width:972px) {
+header[role="banner"] nav h2 {
+float : right;
+margin-right:0%;
+font-size:20px;
+margin-bottom:-7px;
+
+}
+}
+@media only screen and (min-width:769px) and (max-width:972px) {
+header[role="banner"] nav h4 {
+float : center;
+margin-left:51%;
+font-size:20px;
+
+	
+}
+}
+@media only screen and (min-width:769px) and (max-width:972px) {
+header[role="banner"] nav h1 {
+font-size:20px;
+	}
+}
+
+
+
+@media only screen and (min-width:592px) and (max-width:768px) {
+header[role="banner"] nav h4 {
+float : center;
+margin-left:51%;
+font-size:20px;
+
+	
+}
+}
+
+
+
+@media only screen and (min-width:426px) and (max-width:591px) {
+header[role="banner"] nav h2 {
+margin-top:10px;
+	margin-right:82%;
+	margin-bottom:-10px;
+	}
+}
+@media only screen and (min-width:426px) and (max-width:591px) {
+header[role="banner"] nav h4 {
+margin-right:50%;
+
+}
+}
+
+
+
+
+article#project:before, article#project:after {
+content : "";
+display : table;
+}
+article#project:after {
+clear : both;
+}
+@media only screen and (min-width:972px) and (max-width:1260px) {
+article#project div.info {
+display : none;
+}
+}
+@media only screen and (min-width:592px) and (max-width:972px) {
+article#project div.info {
+display : none;
+}
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#project div.info {
+display : none;
+}
+}
+article#project nav {
+display : none;
+padding-bottom : 16px;
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#project nav {
+display : block;
+}
+}
+article#project nav ul li:first-child {
+margin-bottom : 18px;
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#project nav ul li:first-child {
+margin-bottom : 18px;
+}
+}
+@media only screen and (min-width:972px) and (max-width:1260px) {
+article#project.office ul.gallery li img {
+cursor : default;
+}
+}
+article#project ul.gallery {
+float : left;
+width : 100%;
+}
+article#project ul.gallery li {
+float : left;
+width : 100%;
+margin-bottom : 16px;
+}
+article#project ul.gallery li:last-child {
+margin-bottom : 0;
+}
+article#project ul.gallery li.tablet-info {
+display : none;
+padding-top : 28px;
+padding-bottom : 5px;
+}
+@media only screen and (min-width:972px) and (max-width:1260px) {
+article#project ul.gallery li.tablet-info {
+display : block;
+}
+}
+@media only screen and (min-width:592px) and (max-width:972px) {
+article#project ul.gallery li.tablet-info {
+display : block;
+}
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#project ul.gallery li.tablet-info {
+display : block;
+}
+}
+article#project ul.gallery li img {
+width : 100%;
+float : left;
+cursor : pointer;
+}
+
+article#project div.gallery-takeover.hidden {
+display : none;
+}
+article#project div.gallery-takeover a.close {
+position : absolute;
+top : 0;
+right : 0;
+z-index : 2;
+height : 98px;
+width : 134px;
+opacity : 0;
+background : transparent;
+}
+html.no-touch article#project div.gallery-takeover a.close:hover {
+opacity : 1;
+}
+article#project div.gallery-takeover a.close.show {
+opacity : 1;
+}
+
+article#project div.gallery-takeover div.image a {
+overflow : hidden;
+text-indent : -9999px;
+width : 50%;
+height : 100%;
+float : left;
+}
+article#project div.gallery-takeover div.image a.next {
+cursor : default;
+}
+article#project div.gallery-takeover div.image a.prev {
+cursor : default;
+}
+article#static:before, article#static:after {
+content : "";
+display : table;
+}
+article#static:after {
+clear : both;
+}
+@media only screen and (min-width:1548px) and (max-width:9999px) {
+article#static.info div.col {
+margin-left : 592px;
+}
+}
+@media only screen and (min-width:1260px) and (max-width:1548px) {
+article#static.info div.col {
+margin-left : 592px;
+}
+}
+
+article#static div.col.one {
+padding-bottom : 16px;
+}
+article#static div.col p:last-child {
+padding-bottom : 0;
+}
+* {
+box-sizing : border-box;
+}
+.forceHide {
+display : none !important ;
+}
+html {
+min-height : 1px;
+background : white;
+}
+body {
+overflow-y : scroll;
+height : auto;
+}
+body.disabled-scroll {
+overflow : hidden;
+height : 100%;
+}
+body:before {
+position : fixed;
+top : 0;
+left : 0;
+z-index : 5;
+width : 100%;
+height : 44px;
+background : white;
+content : "";
+}
+@media only screen and (min-width:972px) and (max-width:1260px) {
+body:before {
+display : none;
+}
+}
+@media only screen and (min-width:592px) and (max-width:972px) {
+body:before {
+display : none;
+}
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+body:before {
+display : none;
+}
+}
+body:after {
+position : fixed;
+bottom : 0;
+left : 0;
+z-index : 5;
+width : 100%;
+height : 44px;
+background : white;
+content : "";
+}
+@media only screen and (min-width:972px) and (max-width:1260px) {
+body:after {
+display : none;
+}
+}
+@media only screen and (min-width:592px) and (max-width:972px) {
+body:after {
+display : none;
+}
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+body:after {
+display : none;
+}
+}
+body div#wrapper {
+margin : 0 auto;
+min-height : 100%;
+padding : 50px 0;
+}
+@media only screen and (min-width:1548px) and (max-width:9999px) {
+body div#wrapper {
+max-width : 1456px;
+}
+}
+@media only screen and (min-width:1260px) and (max-width:1548px) {
+body div#wrapper {
+max-width : 1168px;
+}
+}
+@media only screen and (min-width:972px) and (max-width:1260px) {
+body div#wrapper {
+max-width : 880px;
+}
+}
+@media only screen and (min-width:592px) and (max-width:972px) {
+body div#wrapper {
+max-width : 592px;
+}
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+body div#wrapper {
+max-width : 320px;
+}
+}
+body .col {
+float : left;
+margin-left : 16px;
+}
+body .col.one {
+width : 272px;
+}
+body .col.two {
+width : 560px;
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+
+body .col.two {
+width : 288px;
+}
+}
+
+body .col.three {
+width : 848px;
+}
+
+@media only screen and (min-width:1260px) and (max-width:1548px) {
+body .col.three {
+width : 560px;
+}
+}
+@media only screen and (min-width:592px) and (max-width:972px) {
+body .col.three {
+width : 560px;
+}
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+body .col.three {
+width : 272px;
+}
+}
+
+body div#grid {
+position : fixed;
+z-index : 10;
+top : 0;
+left : 0;
+width : 100%;
+height : 100%;
+}
+
+
+

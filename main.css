@@ -1,0 +1,541 @@
+article, aside, details, figcaption,
+figure, footer, header, hgroup, nav, section {
+display : block;
+}
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, b, u, i, center, dl, dt, dd, ol, ul,
+li, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside,
+canvas, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section, summary, time,
+mark, audio, video {
+margin : 0;
+padding : 0;
+border : 0;
+outline : 0;
+font-size : 100%;
+font-family:nimbus-sans, sans-serif;
+vertical-align : baseline;
+}
+
+span,em {
+font-family:nimbus-sans;
+font-style:normal;
+color:white;
+padding-left:5px;
+
+}
+
+
+
+h1,h2,h4{
+
+  font-size: 30px;
+  font-family:nimbus-sans;
+  letter-spacing:-1.5px;
+}
+
+
+hr {
+	width:100%;
+}
+
+body {
+line-height : 1;
+font-family:nimbus-sans, sans-serif;
+}
+
+ol, ul {
+list-style : none;
+}
+
+table {
+border-collapse : collapse;
+border-spacing : 0;
+}
+
+* {
+margin : 0;
+}
+
+html, body {
+height : 100%;
+
+}
+
+*, *:before, *:after {
+box-sizing : border-box;
+}
+
+body {
+font-family:nimbus-sans, sans-serif;
+font-size : 15px;
+line-height : 25px;
+
+}
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+body {
+font-size : 15px;
+line-height : 18px;
+font-family:nimbus-sans, sans-serif;
+}
+}
+
+article p, article h1, article h2 {
+font-family:nimbus-sans, sans-serif;
+}
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+button, input[type="text"] {
+font-size : 15px;
+line-height : 18px;
+}
+}
+
+a {
+text-decoration : none;
+color : black;
+font-family:nimbus-sans, sans-serif;
+
+}
+
+p, h2 {
+padding-bottom : 18px;
+
+}
+
+p.file, h2.file {
+
+padding-top : 18px;
+}
+
+p em, h2 em {
+font-family: nimbus-sans, sans-serif;
+
+}
+
+
+p.file, h2.file {
+padding-top : 18px;
+}
+}
+
+@media (max-width:767px) {
+article#grid {
+width : 100%;
+}
+}
+
+
+article#grid ul {
+width : 100%;
+}
+
+article#grid ul:before, article#grid ul:after {
+content : "";
+display : table;
+}
+
+article#grid ul:after {
+clear : both;
+}
+
+@media only screen and (min-width:1548px) and (max-width:9999px) {
+article#grid ul[data-count-5="1"] li:first-child {
+margin-left : 592px;
+}
+
+article#grid ul[data-count-5="2"] li:first-child {
+margin-left : 592px;
+}
+
+article#grid ul[data-count-5="3"] li:first-child {
+margin-left : 304px;
+}
+
+article#grid ul[data-count-5="4"] li:first-child {
+margin-left : 304px;
+}
+}
+
+@media only screen and (min-width:1260px) and (max-width:1548px) {
+article#grid ul[data-count-4="1"] li:first-child {
+margin-left : 880px;
+}
+
+article#grid ul[data-count-4="2"] li:first-child {
+margin-left : 592px;
+}
+
+article#grid ul[data-count-4="3"] li:first-child {
+margin-left : 304px;
+}
+}
+
+@media only screen and (min-width:972px) and (max-width:1260px) {
+article#grid ul[data-count-3="1"] li:first-child {
+margin-left : 592px;
+}
+
+article#grid ul[data-count-3="2"] li:first-child {
+margin-left : 304px;
+}
+}
+
+@media only screen and (min-width:592px) and (max-width:972px) {
+article#grid ul[data-count-2="1"] li:first-child {
+margin-left : 304px;
+}
+}
+
+article#grid ul li {
+float : left;
+display : block;
+background: black;
+width : 272px;
+height : 272px;
+margin : 0 0 16px 16px;
+}
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#grid ul li {
+width : 272px;
+height : 272px;
+}
+}
+
+article#grid ul li a {
+position : relative;
+float : left;
+width : 100%;
+height : 100%;
+}
+
+article#grid ul li a:hover > span {
+opacity : 1;
+
+}
+
+html.touch article#grid ul li a:hover > span {
+display : none;
+}
+
+article#grid ul li a img {
+width : 100%;
+height: 100%;
+}
+
+article#grid ul li a  span {
+position : absolute;
+z-index : 2;
+opacity : 0;
+float : left;
+background : black;
+color : black;
+width : 102%;
+height : 102%;
+padding-top : 2px;
+padding-left : 2px;
+
+
+}
+
+article#grid ul li a span em {
+width : 100%;
+display : block;
+
+
+}
+
+article#grid ul li a span em.title {
+padding-bottom : 10px;
+
+}
+
+article#grid-list:before, article#grid-list:after {
+content : "";
+display : table;
+}
+
+article#grid-list:after {
+clear : both;
+}
+
+article#grid-list ul {
+width : 560px;
+margin-left : 16px;
+float : left;
+}
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#grid-list ul {
+width : 272px;
+height: 272px;
+}
+}
+
+article#grid-list ul.sub {
+float : left;
+width : 272px;
+height: 272px;
+
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#grid-list ul.sub {
+margin-left : 0;
+}
+}
+
+article#grid-list ul.sub li:last-child {
+margin-bottom : 18px;
+}
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#grid-list ul.sub li:last-child {
+margin-bottom : 18px;
+}
+}
+
+article#grid-list ul li {
+width : 100%;
+float : left;
+}
+
+article#grid-list ul li:last-child ul.sub li:last-child {
+margin-bottom : 0;
+}
+
+article#grid-list ul li a {
+float : left;
+
+}
+
+article#grid-list ul li span {
+float : left;
+width : 272px;
+height: 272px;
+}
+
+
+
+@media only screen and (min-width:1px) and (max-width:591px) {
+article#grid-list ul li span a {
+cursor : text;
+}
+
+article#grid-list ul li span a::after {
+content : ":";
+}
+}
+
+
+header[role="banner"] {
+width : 100%;
+float : left;
+padding : 0 16px;
+}
+header[role="banner"] nav {
+position : relative;
+width : 100%;
+float : left;
+padding-bottom : 35px;
+line-height : 45px;
+}
+header[role="banner"] nav h1 {
+float : left;
+
+}
+header[role="banner"] nav h2 {
+float:right;
+font-size:30px;
+margin-right:0%; 
+text-decoration-color: pink;
+
+}
+
+header[role="banner"] nav h4 {
+float : center;
+margin-left:61.5%;
+font-size:30px;
+
+}
+@media only screen and (min-width:1px) and (max-width:768px) {
+header[role="banner"] nav h4 {
+float : center;
+margin-left:0%;
+font-size:20px;
+
+
+
+}
+}
+@media only screen and (min-width:1px) and (max-width:768px) {
+header[role="banner"] nav h1 {
+font-size:20px;
+}
+}
+
+
+@media only screen and (min-width:1px) and (max-width:768px) {
+header[role="banner"] nav h2 {
+float : right;
+margin-right:0%;
+font-size:20px;
+margin-bottom:-7px;
+
+
+
+}
+}
+
+@media only screen and (min-width:1px) and (max-width:425px) {
+header[role="banner"] nav h2 {
+	margin-top:10px;
+	margin-right:85%;
+	margin-bottom:-10px;
+	
+}
+}
+@media only screen and (min-width:1px) and (max-width:425px) {
+header[role="banner"] nav h4 {
+	margin-right:70%;
+	
+}
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+header[role="banner"] nav h2 {
+	margin-right:0%;
+
+}
+}
+@media only screen and (min-width:975px) and (max-width:1024px) {
+header[role="banner"] nav h4 {
+	margin-left:53%;
+	
+}
+}
+
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1261px) {
+header[role="banner"] nav h2 {
+	margin-right:0%;
+
+}
+}
+@media only screen and (min-width:1025px) and (max-width:1261px) {
+header[role="banner"] nav h4 {
+	margin-left:53%;
+	
+}
+}
+
+@media only screen and (min-width:1262px) and (max-width:1548px) {
+header[role="banner"] nav h4 {
+	margin-left:50.7%;
+	
+}
+}
+
+@media only screen and (min-width:769px) and (max-width:972px) {
+header[role="banner"] nav h1 {
+font-size:20px;
+	}
+}
+
+
+@media only screen and (min-width:769px) and (max-width:972px) {
+header[role="banner"] nav h2 {
+float : right;
+margin-right:0%;
+font-size:20px;
+margin-bottom:-7px;
+
+}
+}
+@media only screen and (min-width:769px) and (max-width:972px) {
+header[role="banner"] nav h4 {
+float : center;
+margin-left:51%;
+font-size:20px;
+
+	
+}
+}
+
+@media only screen and (min-width:592px) and (max-width:768px) {
+header[role="banner"] nav h4 {
+float : center;
+margin-left:51%;
+font-size:20px;
+
+	
+}
+}
+
+
+
+@media only screen and (min-width:426px) and (max-width:591px) {
+header[role="banner"] nav h2 {
+margin-top:10px;
+	margin-right:85%;
+	margin-bottom:-10px;
+	
+}
+}
+@media only screen and (min-width:426px) and (max-width:591px) {
+header[role="banner"] nav h4 {
+margin-right:50%;
+
+}
+}
+
+body div#wrapper {
+margin : 0 auto;
+min-height : 100%;
+padding : 50px 0;
+}
+@media only screen and (min-width:1548px) and (max-width:9999px) {
+body div#wrapper {
+max-width : 1456px;
+}
+}
+@media only screen and (min-width:1260px) and (max-width:1548px) {
+body div#wrapper {
+max-width : 1168px;
+}
+}
+@media only screen and (min-width:972px) and (max-width:1260px) {
+body div#wrapper {
+max-width : 880px;
+}
+}
+@media only screen and (min-width:592px) and (max-width:972px) {
+body div#wrapper {
+max-width : 592px;
+}
+}
+@media only screen and (min-width:1px) and (max-width:591px) {
+body div#wrapper {
+max-width : 320px;
+}
+}
+
+body div#grid {
+position : fixed;
+z-index : 10;
+top : 0;
+left : 0;
+width : 100%;
+height : 100%;
+}
